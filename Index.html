@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>DNS</title>
+</head>
+
+<body>
+    <div id="encabezado">
+
+        <div id="menu">
+            <ul>
+                <li><a href="Index.html" title="Pagina principal">Inicio</a></li>
+                <li><a href="contacto.html" title="Informacion">Contacto</a></li>
+            </ul>
+        </div>
+        <BR>
+        <BR>
+        <center>
+            <h1 style="color:white;">DNS(Domain Name System)</h1>
+        </center>
+
+    </div>
+    <div class="areaPrincipal">
+        <div id="datos">
+            	
+		<h3><p>¿Qué es?</p></h3>
+		<p><B>Es el sistema de nombres de dominio se basa en un esquema jerárquico que permite asignar nombres, basándose en el concepto de dominio, utilizando para su gestión una base de datos (BBDD) distribuida.</p></B>
+                <BR>
+		
+		<p><B>Caracteristicas</p></B>
+			<dl>De propósito general</dl>
+                        <li>Se puede usar para resolver nombres a cualquier serie de identificadores.</li>
+                        <br><dl>Eficiente</dl>
+                        <li>La mayoría de los problemas no requieren de mucho tráfico</li>
+                        <br><dl>Distribuido</dl>
+                        <li>Información distribuida.</li>
+                        <br><li>Administraciones independientes.</li>
+                    <BR>
+		    <BR>
+
+		<p><B>Componentes</p></B>
+		        <li>Primarios Carga la información en disco, y tiene autoridad sobre ella.</li>
+                        <br>
+                        <li>Secundario: Tiene autoridad sobre la zona, pero obtiene la información desde el servidor primario en un proceso llamado transferencia de Zona.</li>
+                        <br>
+                        <li>Cache No tiene autoridad, tiene al menos un registro apuntando a un servidor donde obtener la información.</li>
+                        <br>
+                    
+                    <BR>
+		    <BR>
+
+		<p><B>Clases</p></B>
+		        <li>Cliente DNS: (Resolver), genera peticiones.</li>
+                        <br>
+                        <li>Servidor DNS: (Servidor de Dominio) Contesta peticiones de los clientes, puede consultar a otro server si no tiene la respuesta</li>
+                        <br>
+                        <li>Zonas de autoridad: Areas de nombres de dominio que abarcan al menos un dominio.</li>
+                        <br>
+                    <BR>
+		    <BR>
+
+		<p><B>Ventajas</p></B>
+		        <li>Desaparece la carga excesiva en la red y en los hosts: ahora la información está distribuida por toda la red, al tratarse de una BBDD distribuida.</li>
+                        <br>
+                        <li>No hay Duplicidad de Nombres: el problema se elimina debido a la existencia de dominios controlados por un único administrador. Puede haber nombres iguales, pero en dominios diferentes.</li>
+                        <br>
+                        <li>Consistencia de la Información: ahora la información que está distribuida es actualizada automáticamente sin intervención de ningún administrador.</li>
+                        <br>
+                    <BR>
+                    
+       </div>
+
+    </div>
+
+    <div class="piePagina">
+        <br>
+        <br>
+        <br>
+
+        <h3 align="left" color="white">© 2023 por JUSTINO RAMÍREZ VÁZQUEZ</h3>
+    </div>
+
+</body>
+
+</html>

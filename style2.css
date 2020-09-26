@@ -1,0 +1,33 @@
+#menu {
+    height: 40px;
+    position: relative;
+    top: 200px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+h1 {
+    border-color: aqua;
+}
